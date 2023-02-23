@@ -25,6 +25,6 @@ int Fatorial(int valor) {
     {
         ValorDoResultado = valor * Fatorial(valor - 1);
     }
-    
+     
     return ValorDoResultado;
 }

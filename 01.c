@@ -6,7 +6,7 @@ int main(){
     {
         printf("Digite um valor de 0 até 7 (0 vai cancelar o programa): ");
         scanf("%d", &semana);
-        
+
         if (semana == 0) {
             break;
         } else if (semana > 7 || semana < 1 )
@@ -37,7 +37,7 @@ int main(){
             case 7:
                 puts("O dia é sábado");
                 break;
-            }
+            }    
         } 
     }
     return 0;
