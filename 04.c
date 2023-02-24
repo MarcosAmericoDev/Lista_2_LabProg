@@ -20,7 +20,7 @@ int main() {
 
         Anos++;
     }
-    
+     
     printf("Pedro vai demorar %d anos para alcançar a altura de João, ambos com %d", Anos, AlturaJoaoCentimetros);
     return 0;
 }
