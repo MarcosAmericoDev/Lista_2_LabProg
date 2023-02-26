@@ -9,14 +9,31 @@ int main() {
     printf("Insira o valor que deseja terminar: ");
     scanf("%d", &valor_final);
 
-    for (i = valor_inicial; i <= valor_final; i++)
+    if (valor_inicial < valor_final)
     {
-        quadrado = i*i;
-
-        if (i % 4 == 0)
+        for (i = valor_inicial; i <= valor_final; i++)
         {
-            printf("%d ", quadrado);
-        } 
+            quadrado = i*i;
+
+            if (i % 4 == 0)
+            {
+                printf("%d ", quadrado);
+            } 
+        }
     }
+    else
+    {
+        for (i = valor_final; i <= valor_inicial; i++)
+        {
+            quadrado = i*i;
+
+            if (i % 4 == 0)
+            {
+                printf("%d ", quadrado);
+            } 
+        }
+    }
+    
+    
     return 0;
 } 
